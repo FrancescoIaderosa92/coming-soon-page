@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.card li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #fff;
+  border: 5px solid #d8b146;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #000;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border: 3px solid #000;
+  display: inline-block;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
